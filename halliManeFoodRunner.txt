@@ -1,0 +1,14 @@
+class halliManeFoodRunner {
+
+    public static void main(String[] args) {
+
+        int foodPrice = halliManeFood.getPriceByFoodItemAndType("Biryani", "Veg");
+        System.out.println("Food Price: " + foodPrice);
+
+        int juicePrice = halliManeFood.getPriceByJuiceName("Mango");
+        System.out.println("Juice Price: " + juicePrice);
+
+        String sponsor = halliManeFood.getSponsorNameByTotalBill(4500);
+        System.out.println("Sponsor Name: " + sponsor);
+    }
+}
